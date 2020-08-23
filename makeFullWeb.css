@@ -1,0 +1,327 @@
+*
+{
+	padding: 0;
+	margin: 0;
+	
+}
+body
+{
+	font-family: sans-serif;
+}
+#nav-bar
+{
+	position: sticky;
+	top:0;
+	z-index: 10;
+}
+.navbar
+{
+	background-image: linear-gradient(to right,#a517ba,#5f1782);
+	padding: 0 !important;
+}
+.navbar-brand img
+{
+	height: 80px;
+	width: 100px;
+	padding-left :20px; 
+}
+.navbar-nav li
+{
+	padding: 0 10px;
+}
+.navbar-nav li a
+{
+	color: #fff !important;
+	font-weight: 600;
+	float: right;
+	text-align: left;
+}
+.fa-bars
+{
+	color:#fff;
+	font-size: 30px !important;
+	outline: none !important;
+}
+/*banner */
+#banner
+{
+	background-image: linear-gradient(to right,#a517ba,#5f1782);
+	color: #fff;
+	padding-top: 5%;
+}
+.promo-title
+{
+	font-size: 40px;
+	font-weight: 600;
+	margin-top: 100px;
+}
+.play-btn
+{
+	width: 45px;
+	margin: 20px;
+}
+#banner a
+{
+	color: #fff;
+	
+}
+.img-fluid
+{
+
+	text-align: right;
+	margin-left: 80px;
+    margin-right: -150px;
+   	margin-top: 70px;
+	height: 950px;
+	width: 530px;
+}
+.wave img
+{
+	height: 125px;
+	width: 1356px;
+}
+#service
+{
+	padding: 80px 0;
+}
+.service-image
+{
+	width: 250px;
+	height: 250px;
+	margin-top: 20px;
+}
+.services
+{
+	padding: 20px;
+}
+
+.services h4
+{
+	padding: 5px;
+	margin-top: 25px;
+	text-transform: uppercase;
+}
+.title::before
+{
+	content: '';
+	background:#7b1798;
+	height: 5px;
+	width: 200px;
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+	transform: translateY(63px);
+}
+.title::after
+{
+	content: '';
+	background:#7b1798;
+	height: 10px;
+	width: 50px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: auto;
+	display: block;
+	transform: translateY(8px);
+}
+#service .btn-primary
+{
+	box-shadow: none;
+	padding: 8px 25px;
+	border:none;
+	border-radius: 80px;
+	background-image: linear-gradient(to right,#a517ba,#5f1782);
+}
+#about-us
+{
+	padding: 80px 0;
+	background-color: #eee;
+}
+.aboutus
+{
+	width: 300px;
+	height: 300px;
+	padding-top: 30px;
+}
+/*.title1
+{
+	text-transform: uppercase;
+	margin-bottom: 30px;
+	padding-top: 60px;
+}*/
+.title1::before
+{
+	content: '';
+	background:#7b1798;
+	width: 275px;
+	height: 5px;
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+	transform: translateY(63px);
+}
+.title1::after
+{
+	content: '';
+	background:#7b1798;
+	height: 10px;
+	width: 50px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: auto;
+	display: block;
+	transform: translateY(8px);
+}
+.aboutUsS
+{
+   padding-top:70px;
+   padding-right: 20px;
+}
+.aboutUsS h4
+{
+	text-transform: uppercase;
+	font-weight: 300px;
+	font-size: 30px;
+}
+.aboutUsS ul
+{
+	
+}
+.aboutUsS ul li
+{
+	font-size:  16px;
+}
+#about-us .btn-primary
+{
+	border-radius: 500px;
+	border: none;
+	box-shadow: none;
+	margin-top: 40px;
+	background-image: linear-gradient(to right,#a517ba,#5f1782);
+}
+#feedback
+{
+	padding: 80px 0 ;
+	/*padding-bottom: 0 0 50px 0;*/
+}
+.title2::before
+{
+	content: '';
+    background:#7b1798;
+    width: 240px;
+    height: 5px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    transform: translateY(63px);
+}
+.title2::after
+{
+	content:'';
+	background: #7b1798;
+	width: 50px;
+	height: 10px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: auto;
+	display: block;
+	transform: translateY(8px);
+}
+.feedback1
+{
+	border-left: 4px solid #7b1798;
+	margin-top: 50px;
+	margin-bottom: 50px;
+	margin-left: 20px;
+
+}
+.feedback1 img
+{
+	height: 60px;
+	width: 60px;
+	border-radius: 50%;
+	margin:0 10px;
+}
+.user-details
+{
+	display: inline-block;
+	font-size: 12px;
+}
+.title3
+{
+	text-transform: uppercase;
+
+}
+#findUs
+{
+ padding:80px 0;
+}
+
+.social img
+{
+	height: 230px;
+width: 340px;
+}
+
+
+.logo1
+{
+	width: 100px;
+	height: 100px;
+}
+#footerWeb
+{
+	/*padding: 80px 0;*/
+	background-image: linear-gradient(to right,#7FFFD4,#40e0d0)
+}
+.footer-img
+{
+	width: 1356px;
+	height: 300px;
+}
+.footer .fa
+{
+	margin-right: 8px;
+	font-size: 15px;
+	height: 40px;
+	width: 40px;
+	text-align: center;
+	padding-top: 7px;
+	border-radius: 2px;
+ background-image: linear-gradient(to right,#a517ba,#5f1782);
+}
+.footer
+{
+	padding: 20px;
+	margin-top: 63px;
+}
+.footer1
+{ 
+	padding: 20px;
+    margin-top: -25px;
+}
+.footer .form-control
+{
+	max-width: 240px;
+	margin-top: 25px;
+	box-shadow: none;
+	border-radius: 0px;
+	border:none;
+}
+.footer .btn-primary
+{
+	box-shadow: none !important;
+	border:none;
+	margin-top: 20px;
+	background-color: #40e0d0;
+}
+hr
+{
+	background-color: #000;
+}
+.design
+{
+	text-align: center;
+	margin-bottom: 0px;
+	padding-bottom: 20px;
+}
